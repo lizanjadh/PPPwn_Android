@@ -8,7 +8,7 @@
 - APP Root Explorer https://root-explorer.uptodown.com/android/post-download/2027189
 
 # Usage
-- Download repository https://github.com/lizanjadh/PPPwn_Android.git
+- Download repository https://github.com/lizanjadh/PPPwn_Android/archive/refs/heads/main.zip
 -  install termux app https://termux.uptodown.com/android/post-download/106885413
--  install termux app https://root-explorer.uptodown.com/android/post-download/2027189
+-  install Root Explorer app https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer
 -  
