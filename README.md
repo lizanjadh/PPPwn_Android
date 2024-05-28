@@ -1,4 +1,4 @@
-#PPPwn++ Android Termux Terminal
+# PPPwn++ Android Termux Terminal
 
 -I opened the termux application and grant root superuser permissions, execute the command "su" and grant root permission choose "always"# PPPwn++ Android Root Termux
 # Requirements
