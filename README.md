@@ -6,11 +6,13 @@
 - An USB Ethernet Adapter
 - An ethernet cable
 - APP termux https://termux.uptodown.com/android/post-download/106885413
-
+- internet connection on phone
 
 # How to install
 
-Copy and paste this into termux and press enter to install:
+- install termux
+- Open the Termux application
+- Copy and paste this into termux and press enter to install:
 
 ```sh
 pkg install git -y && git clone https://github.com/lizanjadh/PPPwn_Android.git && cd PPPwn_Android && sh install.sh
