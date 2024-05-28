@@ -1,4 +1,6 @@
-I opened the termux application and grant root superuser permissions, execute the command "su" and grant root permission choose "always"# PPPwn++ Android Root Termux
+#PPPwn++ Android Termux Terminal
+
+-I opened the termux application and grant root superuser permissions, execute the command "su" and grant root permission choose "always"# PPPwn++ Android Root Termux
 # Requirements
 - A recent rooted Android phone that supports OTG
 - An OTG USB Cable or Adapter
