@@ -16,5 +16,5 @@
 On your computer, clone the repository:
 
 ```sh
-git clone --recursive https://github.com/TheOfficialFloW/PPPwn
+git clone https://github.com/lizanjadh/PPPwn_Android.git)
 ```
