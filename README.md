@@ -5,7 +5,7 @@
 - An OTG USB Cable or Adapter
 - An USB Ethernet Adapter
 - An ethernet cable
-- APP termux https://termux.uptodown.com/android/post-download/106885413
+- App termux https://termux.uptodown.com/android/post-download/106885413
 - internet connection on phone
 
 # How to install
