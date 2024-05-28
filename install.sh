@@ -13,11 +13,11 @@ Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
 
-echo "$white -" "$yellow Acepte permisos de Storage para continuar...$blue"
+echo "$white -" "$yellow Acepte permisos de Storage para continuar..."
 
 termux-setup-storage
 
-echo "$white -" "$yellow instalando dependencias en 5 segundos...$blue"
+echo "$white -" "$yellow Instalando dependencias en 5 segundos..."
 
 sleep 1
 echo "$white -" "$red 1$grey segundos"
@@ -30,14 +30,14 @@ echo "$white -" "$red 4$grey segundos"
 sleep 1
 echo "$white -" "$red 5$grey segundos"
 
-echo "$white -" "$yellow instalando tsu$blue"
-
+echo "$white -" "$yellow Instalando tsu"
+echo "$blue"
 pkg install tsu
 
 
 echo "$white -" "$green tsu instalado correctamente"
 
-echo "$white -" "$yellow activando permisos de ejecución, lectura, escritura para la carpeta pppwn en 5 segundos...$blue"
+echo "$white -" "$yellow Activando permisos de ejecución, lectura, escritura para la carpeta PPPwn_Android en 5 segundos..."
 
 sleep 1
 echo "$white -" "$red 1$grey segundos"
@@ -51,9 +51,9 @@ sleep 1
 echo "$white -" "$red 5$grey segundos"
 
 sudo chmod 777 -R /data/data/com.termux/files/home/PPPwn_Android
-echo "$white -" "$green permisos de ejecución activados con exito"
+echo "$white -" "$green Permisos de ejecución activados con exito"
 
-echo "$white -" "$yellow copiando archivos 900.sh y 1100.sh a la carpeta home..."
+echo "$white -" "$yellow Copiando archivos 900.sh y 1100.sh a la carpeta home..."
 
 sleep 1
 echo "$white -" "$blue 10%"
@@ -80,15 +80,10 @@ echo "$white -" "$blue 100%"
 cp *900.sh* /data/data/com.termux/files/home
 cp *1100.sh* /data/data/com.termux/files/home
 
-echo "$white -" "$green archivos copiados con exito"
-
-echo "$white -" "$yellow Ejecutar pppwn++ 11.00  y 9.00 escribiendo en termux"
-
-echo "$white -" "$green sh 1100.sh"
-echo "$white -" "$green sh 900.sh"
+echo "$white -" "$green Archivos 900.sh y 1100.sh copiados con exito"
 
 
-echo "$white -" "$yellow cambiando banner a PPPwn++"
+echo "$white -" "$yellow Cambiando banner Twrmux a PPPwn++"
 
 cp *motd* /data/data/com.termux/files/usr/etc
 
@@ -103,9 +98,9 @@ echo "$white -" "$blue 77%"
 sleep 1
 echo "$white -" "$blue 100%"
 
-echo "$white -" "$green banner de termux cambiado con éxito"
+echo "$white -" "$green Banner de termux cambiado con éxito"
 
-echo "$white -" "$yellow escriba exit enter para salir de Termux y nuevamente abrir Termux"
+echo "$white -" "$yellow escriba exit y enter para salir de Termux y abrir app Termux de nuevo"
 
 
 
