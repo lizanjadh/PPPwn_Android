@@ -13,5 +13,5 @@
 Copy and paste this into termux and press enter to install:
 
 ```sh
-git clone https://github.com/lizanjadh/PPPwn_Android.git
+pkg install git -y && git clone https://github.com/lizanjadh/PPPwn_Android.git && cd PPPwn_Android && sh install.sh
 ```
