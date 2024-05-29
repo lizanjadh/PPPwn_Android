@@ -16,7 +16,8 @@ nc="\e[0m"
 echo "$white -" "$yellow Accept Storage permissions to continue..."
 
 termux-setup-storage
-echo "$white -" "$green storage permissions was accepted successfully
+
+echo "$white -" "$green storage permissions was accepted successfully"
 echo "$white -"
 echo "$white -" "$yellow Installing dependencies in 5 seconds..."
 
