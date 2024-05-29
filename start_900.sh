@@ -12,13 +12,13 @@ Cafe="\033[0;33m"
 Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
-echo "$white -"
-Español:
+
+echo "$blue Español$yellow :"
 echo "$white -" "$yellow Activando exploit PPPwn++ 9.00 en 5 segundos..."
 echo "$white -"
-English:
+echo "$blue English$ yellow :"
 echo "$white -" "$yellow Activating PPPwn++ 9.00 exploit in 5 seconds..."
-echo "$white -"
+
 sleep 1
 echo "$white -" "$red 1$grey segundos"
 sleep 1
@@ -29,14 +29,14 @@ sleep 1
 echo "$white -" "$red 4$grey segundos"
 sleep 1
 echo "$white -" "$red 5$grey segundos"
-echo "$white -"
+
 # Set the necessary environment variables for Termux
-echo "$white -"
+
 export PATH=$PATH:/data/data/com.termux/files/usr/bin
 export PATH=$PATH:/data/data/com.termux/files/usr/bin/env
-echo "$white -"
+
 # Run the sudo command
-echo "$white -"
+
 echo "$blue"
-echo "$white -"
+
 sudo ./pppwn --interface eth0 --fw 900 --stage1 900_stage1.bin --stage2 900_stage2.bin --auto-retry
