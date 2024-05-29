@@ -12,11 +12,13 @@ Cafe="\033[0;33m"
 Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
+echo "$white -"
 Español:
 echo "$white -" "$yellow Activando exploit PPPwn++ 11.00 en 5 segundos..."
+echo "$white -"
 English:
 echo "$white -" "$yellow Activating PPPwn++ 11.00 exploit in 5 seconds..."
-
+echo "$white -"
 sleep 1
 echo "$white -" "$red 1"
 sleep 1
@@ -27,7 +29,7 @@ sleep 1
 echo "$white -" "$red 4"
 sleep 1
 echo "$white -" "$red 5"
-
+echo "$white -"
 # Set the necessary environment variables for Termux
 export PATH=$PATH:/data/data/com.termux/files/usr/bin
 export PATH=$PATH:/data/data/com.termux/files/usr/bin/env
