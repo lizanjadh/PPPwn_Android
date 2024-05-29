@@ -30,7 +30,7 @@ sleep 1
 echo "$white -" "$red 5"
 echo "$white -"
 echo "$white -" "$yellow Installing tsu"
-echo "$blue"pkg install tsu
+pkg install tsu
 echo "$white -"
 echo "$white -" "$green tsu installed correctly"
 echo "$white -"
