@@ -13,7 +13,10 @@ Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
 
-echo "$white -" "$yellow activando exploit PPPwn++ 9.00 en 5 segundos..."
+Español:
+echo "$white -" "$yellow Activando exploit PPPwn++ 11.00 en 5 segundos..."
+English:
+echo "$white -" "$yellow Activating PPPwn++ 11.00 exploit in 5 seconds..."
 
 sleep 1
 echo "$white -" "$red 1$grey segundos"
