@@ -31,8 +31,12 @@ sleep 1
 echo "$white -" "$red 5"
 echo "$white -"
 # Set the necessary environment variables for Termux
+echo "$white -"
 export PATH=$PATH:/data/data/com.termux/files/usr/bin
 export PATH=$PATH:/data/data/com.termux/files/usr/bin/env
+echo "$white -"
 # Run the sudo command
+echo "$white -"
 echo "$blue"
+echo "$white -"
 sudo ./pppwn --interface eth0 --fw 1100 --stage1 1100_stage1.bin --stage2 1100_stage2.bin --auto-retry
