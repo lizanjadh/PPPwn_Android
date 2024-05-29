@@ -12,49 +12,47 @@ Cafe="\033[0;33m"
 Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
-
-echo "$white -" "$yellow Acepte permisos de Storage para continuar..."
-
+echo "$white -" "$yellow Accept Storage permissions to continue..."
+echo "$white -"
 termux-setup-storage
-
-echo "$white -" "$yellow Instalando dependencias en 5 segundos..."
-
+echo "$white -"
+echo "$white -" "$yellow Installing dependencies in 5 seconds..."
+echo "$white -"
 sleep 1
-echo "$white -" "$red 1$grey segundos"
+echo "$white -" "$red 1"
 sleep 1
-echo "$white -" "$red 2$grey segundos"
+echo "$white -" "$red 2"
 sleep 1
-echo "$white -" "$red 3$grey segundos"
+echo "$white -" "$red 3"
 sleep 1
-echo "$white -" "$red 4$grey segundos"
+echo "$white -" "$red 4"
 sleep 1
-echo "$white -" "$red 5$grey segundos"
-
-echo "$white -" "$yellow Instalando tsu"
-echo "$blue"
-pkg install tsu
-
-
-echo "$white -" "$green tsu instalado correctamente"
-
-echo "$white -" "$yellow Activando permisos de ejecución, lectura, escritura para la carpeta PPPwn_Android en 5 segundos..."
-
+echo "$white -" "$red 5"
+echo "$white -"
+echo "$white -" "$yellow Installing tsu"
+echo "$blue"pkg install tsu
+echo "$white -"
+echo "$white -" "$green tsu installed correctly"
+echo "$white -"
+echo "$white -" "$yellow Activating execute, read, write permissions for the PPPwn_Android folder in 5 seconds..."
+echo "$white -"
 sleep 1
-echo "$white -" "$red 1$grey segundos"
+echo "$white -" "$red 1"
 sleep 1
-echo "$white -" "$red 2$grey segundos"
+echo "$white -" "$red 2"
 sleep 1
-echo "$white -" "$red 3$grey segundos"
+echo "$white -" "$red 3"
 sleep 1
-echo "$white -" "$red 4$grey segundos"
+echo "$white -" "$red 4"
 sleep 1
-echo "$white -" "$red 5$grey segundos"
-
+echo "$white -" "$red 5"
+echo "$white -"
 sudo chmod 777 -R /data/data/com.termux/files/home/PPPwn_Android
-echo "$white -" "$green Permisos de ejecución activados con exito"
-
-echo "$white -" "$yellow Copiando archivos 900.sh y 1100.sh a la carpeta home..."
-
+echo "$white -"
+echo "$white -" "$green Execution permissions activated successfully"
+echo "$white -"
+echo "$white -" "$yellow Copying files 900.sh and 1100.sh to the home folder..."
+echo "$white -"
 sleep 1
 echo "$white -" "$blue 10%"
 sleep 1
@@ -75,18 +73,16 @@ sleep 1
 echo "$white -" "$blue 90%"
 sleep 1
 echo "$white -" "$blue 100%"
-
-
+echo "$white -"
 cp *900.sh* /data/data/com.termux/files/home
 cp *1100.sh* /data/data/com.termux/files/home
-
-echo "$white -" "$green Archivos 900.sh y 1100.sh copiados con exito"
-
-
-echo "$white -" "$yellow Cambiando banner Twrmux a PPPwn++"
-
+echo "$white -"
+echo "$white -" "$green Files 900.sh and 1100.sh copied successfully"
+echo "$white -"
+echo "$white -" "$yellow Changing Twrmux banner to PPPwn++"
+echo "$white -"
 cp *motd* /data/data/com.termux/files/usr/etc
-
+echo "$white -"
 sleep 1
 echo "$white -" "$blue 13%"
 sleep 1
@@ -97,11 +93,9 @@ sleep 1
 echo "$white -" "$blue 77%"
 sleep 1
 echo "$white -" "$blue 100%"
-
-echo "$white -" "$green Banner de termux cambiado con éxito"
-
+echo "$white -"
+echo "$white -" "$green termux banner changed successfully"
+echo "$white -"
 echo "$white -" "$yellow escriba exit y enter para salir de Termux y abrir app Termux de nuevo"
-
-
-
-
+echo "$white -"
+echo "$white -" "$yellow type exit and enter to exit Termux and open Termux app again"
