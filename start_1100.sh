@@ -28,9 +28,9 @@ echo "$white -" "$red 4"
 sleep 1
 echo "$white -" "$red 5"
 
-# Establecer las variables de entorno necesarias para Termux
+# Set the necessary environment variables for Termux
 export PATH=$PATH:/data/data/com.termux/files/usr/bin
 export PATH=$PATH:/data/data/com.termux/files/usr/bin/env
-# Ejecutar el comando sudo
+# Run the sudo command
 echo "$blue"
 sudo ./pppwn --interface eth0 --fw 1100 --stage1 1100_stage1.bin --stage2 1100_stage2.bin --auto-retry
