@@ -12,12 +12,13 @@ Cafe="\033[0;33m"
 Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
+
 echo "$white -" "$yellow Accept Storage permissions to continue..."
-echo "$white -"
+
 termux-setup-storage
-echo "$white -"
+
 echo "$white -" "$yellow Installing dependencies in 5 seconds..."
-echo "$white -"
+
 sleep 1
 echo "$white -" "$red 1"
 sleep 1
@@ -28,14 +29,18 @@ sleep 1
 echo "$white -" "$red 4"
 sleep 1
 echo "$white -" "$red 5"
-echo "$white -"
+
 echo "$white -" "$yellow Installing tsu"
+
+echo "$blue"
+
 pkg install tsu
+
 echo "$white -"
 echo "$white -" "$green tsu installed correctly"
 echo "$white -"
 echo "$white -" "$yellow Activating execute, read, write permissions for the PPPwn_Android folder in 5 seconds..."
-echo "$white -"
+
 sleep 1
 echo "$white -" "$red 1"
 sleep 1
@@ -46,13 +51,14 @@ sleep 1
 echo "$white -" "$red 4"
 sleep 1
 echo "$white -" "$red 5"
-echo "$white -"
+
 sudo chmod 777 -R /data/data/com.termux/files/home/PPPwn_Android
+
 echo "$white -"
 echo "$white -" "$green Execution permissions activated successfully"
 echo "$white -"
 echo "$white -" "$yellow Copying files 900.sh and 1100.sh to the home folder..."
-echo "$white -"
+
 sleep 1
 echo "$white -" "$blue 10%"
 sleep 1
@@ -73,16 +79,17 @@ sleep 1
 echo "$white -" "$blue 90%"
 sleep 1
 echo "$white -" "$blue 100%"
-echo "$white -"
+
 cp *900.sh* /data/data/com.termux/files/home
 cp *1100.sh* /data/data/com.termux/files/home
+
 echo "$white -"
 echo "$white -" "$green Files 900.sh and 1100.sh copied successfully"
 echo "$white -"
 echo "$white -" "$yellow Changing Twrmux banner to PPPwn++"
-echo "$white -"
+
 cp *motd* /data/data/com.termux/files/usr/etc
-echo "$white -"
+
 sleep 1
 echo "$white -" "$blue 13%"
 sleep 1
@@ -93,6 +100,7 @@ sleep 1
 echo "$white -" "$blue 77%"
 sleep 1
 echo "$white -" "$blue 100%"
+
 echo "$white -"
 echo "$white -" "$green termux banner changed successfully"
 echo "$white -"
