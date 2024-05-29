@@ -14,9 +14,9 @@ blue="\033[1;34m"
 nc="\e[0m"
 
 Español:
-echo "$white -" "$yellow Activando exploit PPPwn++ 11.00 en 5 segundos..."
+echo "$white -" "$yellow Activando exploit PPPwn++ 9.00 en 5 segundos..."
 English:
-echo "$white -" "$yellow Activating PPPwn++ 11.00 exploit in 5 seconds..."
+echo "$white -" "$yellow Activating PPPwn++ 9.00 exploit in 5 seconds..."
 
 sleep 1
 echo "$white -" "$red 1$grey segundos"
@@ -29,10 +29,10 @@ echo "$white -" "$red 4$grey segundos"
 sleep 1
 echo "$white -" "$red 5$grey segundos"
 
-# Establecer las variables de entorno necesarias para Termux
+# Set the necessary environment variables for Termux
 export PATH=$PATH:/data/data/com.termux/files/usr/bin
 export PATH=$PATH:/data/data/com.termux/files/usr/bin/env
-# Ejecutar el comando sudo
+# Run the sudo command
 
 echo "$blue"
 
