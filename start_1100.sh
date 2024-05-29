@@ -18,7 +18,7 @@ echo "$white -" "$yellow Activando exploit PPPwn++ 11.00 en 5 segundos..."
 echo "$white -"
 echo "$blue English$ yellow :"
 echo "$white -" "$yellow Activating PPPwn++ 11.00 exploit in 5 seconds..."
-echo "$white -"
+
 sleep 1
 echo "$white -" "$red 1"
 sleep 1
