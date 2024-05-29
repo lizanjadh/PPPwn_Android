@@ -31,8 +31,10 @@ sleep 1
 echo "$white -" "$red 5$grey segundos"
 echo "$white -"
 # Set the necessary environment variables for Termux
+echo "$white -"
 export PATH=$PATH:/data/data/com.termux/files/usr/bin
 export PATH=$PATH:/data/data/com.termux/files/usr/bin/env
+echo "$white -"
 # Run the sudo command
 echo "$white -"
 echo "$blue"
