@@ -16,7 +16,7 @@ nc="\e[0m"
 echo "$blue Español$yellow :"
 echo "$white -" "$yellow Activando exploit PPPwn++ 11.00 en 5 segundos..."
 echo "$white -"
-echo "$blue English$ yellow :"
+echo "$blue English$yellow :"
 echo "$white -" "$yellow Activating PPPwn++ 11.00 exploit in 5 seconds..."
 
 sleep 1
