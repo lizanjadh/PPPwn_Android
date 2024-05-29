@@ -20,15 +20,15 @@ echo "$blue English$yellow :"
 echo "$white -" "$yellow Activating PPPwn++ 9.00 exploit in 5 seconds..."
 
 sleep 1
-echo "$white -" "$red 1$grey segundos"
+echo "$white -" "$red 1"
 sleep 1
-echo "$white -" "$red 2$grey segundos"
+echo "$white -" "$red 2"
 sleep 1
-echo "$white -" "$red 3$grey segundos"
+echo "$white -" "$red 3"
 sleep 1
-echo "$white -" "$red 4$grey segundos"
+echo "$white -" "$red 4"
 sleep 1
-echo "$white -" "$red 5$grey segundos"
+echo "$white -" "$red 5"
 
 # Set the necessary environment variables for Termux
 
