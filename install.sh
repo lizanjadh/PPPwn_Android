@@ -59,7 +59,7 @@ sudo chmod 777 -R /data/data/com.termux/files/home/PPPwn_Android
 echo "$white -"
 echo "$white -" "$green Execution permissions activated successfully"
 echo "$white -"
-echo "$white -" "$yellow Copying files 900.sh and 1100.sh to the home folder..."
+echo "$white -" "$yellow Copying file start.sh to the home folder..."
 
 sleep 1
 echo "$white -" "$blue 10%"
@@ -82,8 +82,7 @@ echo "$white -" "$blue 90%"
 sleep 1
 echo "$white -" "$blue 100%"
 
-cp *900.sh* /data/data/com.termux/files/home
-cp *1100.sh* /data/data/com.termux/files/home
+cp *start.sh* /data/data/com.termux/files/home
 
 echo "$white -"
 echo "$white -" "$green Files 900.sh and 1100.sh copied successfully"
@@ -105,7 +104,5 @@ echo "$white -" "$blue 100%"
 
 echo "$white -"
 echo "$white -" "$green termux banner changed successfully"
-echo "$white -"
-echo "$white -" "$yellow escriba exit y enter para salir de Termux y abrir app Termux de nuevo"
 echo "$white -"
 echo "$white -" "$yellow type exit and enter to exit Termux and open Termux app again"
