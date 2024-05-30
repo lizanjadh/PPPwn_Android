@@ -13,12 +13,6 @@ Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
 
-echo "$blue Español$yellow :"
-echo "$white -" "$yellow Activando exploit PPPwn++ 11.00 en 5 segundos..."
-echo "$white -"
-echo "$blue English$yellow :"
-echo "$white -" "$yellow Activating PPPwn++ 11.00 exploit in 5 seconds..."
-
 sleep 1
 echo "$white -" "$red 1"
 sleep 1
@@ -37,6 +31,6 @@ export PATH=$PATH:/data/data/com.termux/files/usr/bin/env
 
 # Run the sudo command
 
-echo "$blue"
+echo "$green"
 
 sudo ./pppwn --interface eth0 --fw 1100 --stage1 1100_stage1.bin --stage2 1100_stage2.bin --auto-retry
