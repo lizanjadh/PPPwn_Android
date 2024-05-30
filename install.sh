@@ -85,7 +85,7 @@ echo "$white -" "$blue 100%"
 cp *start.sh* /data/data/com.termux/files/home
 
 echo "$white -"
-echo "$white -" "$green Files 900.sh and 1100.sh copied successfully"
+echo "$white -" "$green File start.sh copied successfully"
 echo "$white -"
 echo "$white -" "$yellow Changing Twrmux banner to PPPwn++"
 
