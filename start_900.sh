@@ -31,6 +31,6 @@ export PATH=$PATH:/data/data/com.termux/files/usr/bin/env
 
 # Run the sudo command
 
-echo "$blue"
+echo "$green"
 
 sudo ./pppwn --interface eth0 --fw 900 --stage1 900_stage1.bin --stage2 900_stage2.bin --auto-retry
