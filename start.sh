@@ -47,7 +47,7 @@ echo "$green 2. $grey Start PPPwn++ Exploit 11.00 PS4 Firmware"
 
 echo ""
 
-echo "$green 3. $grey Reset Menu"
+echo "$green 3. $grey Exit"
 
 echo ""
 
