@@ -19,18 +19,10 @@ termux-setup-storage
 
 echo "$white -" "$green storage permissions was accepted successfully"
 echo "$white -"
-echo "$white -" "$yellow Installing dependencies in 5 seconds..."
+echo "$white -" "$yellow Installing dependencies ..."
 
 sleep 1
-echo "$white -" "$red 1"
 sleep 1
-echo "$white -" "$red 2"
-sleep 1
-echo "$white -" "$red 3"
-sleep 1
-echo "$white -" "$red 4"
-sleep 1
-echo "$white -" "$red 5"
 
 echo "$white -" "$yellow downloading and installing tsu"
 
@@ -41,18 +33,10 @@ pkg install tsu
 echo "$white -"
 echo "$white -" "$green tsu installed correctly"
 echo "$white -"
-echo "$white -" "$yellow Activating execute, read, write permissions for the PPPwn_Android folder in 5 seconds..."
+echo "$white -" "$yellow Activating execute, read, write permissions for the PPPwn_Android folder ..."
 
 sleep 1
-echo "$white -" "$red 1"
 sleep 1
-echo "$white -" "$red 2"
-sleep 1
-echo "$white -" "$red 3"
-sleep 1
-echo "$white -" "$red 4"
-sleep 1
-echo "$white -" "$red 5"
 
 sudo chmod 777 -R /data/data/com.termux/files/home/PPPwn_Android
 
@@ -62,25 +46,7 @@ echo "$white -"
 echo "$white -" "$yellow Copying file start.sh to the home folder..."
 
 sleep 1
-echo "$white -" "$blue 10%"
 sleep 1
-echo "$white -" "$blue 20%"
-sleep 1
-echo "$white -" "$blue 30%"
-sleep 1
-echo "$white -" "$blue 40%"
-sleep 1
-echo "$white -" "$blue 50%"
-sleep 1
-echo "$white -" "$blue 60%"
-sleep 1
-echo "$white -" "$blue 70%"
-sleep 1
-echo "$white -" "$blue 80%"
-sleep 1
-echo "$white -" "$blue 90%"
-sleep 1
-echo "$white -" "$blue 100%"
 
 cp *start.sh* /data/data/com.termux/files/home
 
@@ -92,29 +58,13 @@ echo "$white -" "$yellow Changing Termux Menu PPPwn++"
 cp *termux-login.sh* /data/data/com.termux/files/usr/etc
 
 sleep 1
-echo "$white -" "$blue 13%"
 sleep 1
-echo "$white -" "$blue 37%"
-sleep 1
-echo "$white -" "$blue 53%"
-sleep 1
-echo "$white -" "$blue 77%"
-sleep 1
-echo "$white -" "$blue 100%"
 
 echo "$white -"
 echo "$white -" "$green termux Menu changed successfully"
 echo "$white -"
-echo "$white -" "$yellow The PPPwn++ menu will start in 5 seconds..."
+echo "$white -" "$yellow The PPPwn++ menu will start ..."
 
 sleep 1
-echo "$white -" "$red 1"
 sleep 1
-echo "$white -" "$red 2"
-sleep 1
-echo "$white -" "$red 3"
-sleep 1
-echo "$white -" "$red 4"
-sleep 1
-echo "$white -" "$red 5"
 sh start.sh
