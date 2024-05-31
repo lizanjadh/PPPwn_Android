@@ -67,4 +67,5 @@ echo "$white -" "$yellow The PPPwn++ menu will start ..."
 
 sleep 1
 sleep 1
+cd ..
 cd /data/data/com.termux/files/home && sh start.sh
