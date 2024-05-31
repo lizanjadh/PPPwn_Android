@@ -87,9 +87,9 @@ cp *start.sh* /data/data/com.termux/files/home
 echo "$white -"
 echo "$white -" "$green File start.sh copied successfully"
 echo "$white -"
-echo "$white -" "$yellow Changing Termux banner to PPPwn++"
+echo "$white -" "$yellow Changing Termux Menu PPPwn++"
 
-cp *motd* /data/data/com.termux/files/usr/etc
+cp *termux-login.sh* /data/data/com.termux/files/usr/etc
 
 sleep 1
 echo "$white -" "$blue 13%"
@@ -103,6 +103,6 @@ sleep 1
 echo "$white -" "$blue 100%"
 
 echo "$white -"
-echo "$white -" "$green termux banner changed successfully"
+echo "$white -" "$green termux Menu changed successfully"
 echo "$white -"
 echo "$white -" "$yellow type exit and enter to exit Termux and open Termux app again"
