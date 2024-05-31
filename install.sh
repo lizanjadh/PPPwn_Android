@@ -105,7 +105,7 @@ echo "$white -" "$blue 100%"
 echo "$white -"
 echo "$white -" "$green termux Menu changed successfully"
 echo "$white -"
-echo "$white -" "$yellow El menu PPPwn++ se iniciará  in 5 seconds..."
+echo "$white -" "$yellow The PPPwn++ menu will start in 5 seconds..."
 
 sleep 1
 echo "$white -" "$red 1"
