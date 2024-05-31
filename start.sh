@@ -47,7 +47,7 @@ echo "$green 2. $grey Start PPPwn++ Exploit 11.00 PS4 Firmware"
 
 echo ""
 
-echo "$green 3. $grey exit"
+echo "$green 3. $grey Reset Menu"
 
 echo ""
 
@@ -59,7 +59,9 @@ read opcion
 
 case $opcion in
  
-1) echo "$green Starting PPPwn++ 9.00 PS4 in 5 seconds..."
+1) echo "$green Starting PPPwn++ 9.00 PS4 ..."
+
+sleep 1
 
 cd PPPwn_Android && sh start_900.sh
 
@@ -67,7 +69,9 @@ read foo
 
 ;;
 
-2) echo "$green Starting PPPwn++ 11.00 PS4 in 5 seconds..."
+2) echo "$green Starting PPPwn++ 11.00 PS4 ..."
+
+sleep 1
 
 cd PPPwn_Android && sh start_1100.sh
 
