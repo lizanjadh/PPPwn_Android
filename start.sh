@@ -63,7 +63,7 @@ case $opcion in
 
 sleep 1
 
-cd PPPwn_Android && sh start_900.sh
+sh start_900.sh
 
 read foo
 
@@ -73,7 +73,7 @@ read foo
 
 sleep 1
 
-cd PPPwn_Android && sh start_1100.sh
+sh start_1100.sh
 
 read foo
 
