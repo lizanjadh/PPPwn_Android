@@ -105,4 +105,16 @@ echo "$white -" "$blue 100%"
 echo "$white -"
 echo "$white -" "$green termux Menu changed successfully"
 echo "$white -"
-echo "$white -" "$yellow type exit and enter to exit Termux and open Termux app again"
+echo "$white -" "$yellow El menu PPPwn++ se iniciará  in 5 seconds..."
+
+sleep 1
+echo "$white -" "$red 1"
+sleep 1
+echo "$white -" "$red 2"
+sleep 1
+echo "$white -" "$red 3"
+sleep 1
+echo "$white -" "$red 4"
+sleep 1
+echo "$white -" "$red 5"
+sh start.sh
