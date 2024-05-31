@@ -13,17 +13,6 @@ Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
 
-sleep 1
-echo "$white -" "$red 1"
-sleep 1
-echo "$white -" "$red 2"
-sleep 1
-echo "$white -" "$red 3"
-sleep 1
-echo "$white -" "$red 4"
-sleep 1
-echo "$white -" "$red 5"
-
 # Set the necessary environment variables for Termux
 
 export PATH=$PATH:/data/data/com.termux/files/usr/bin
