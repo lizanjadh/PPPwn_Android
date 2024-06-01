@@ -40,7 +40,7 @@ sleep 1
 sleep 1
 sleep 1
 
-sudo -y chmod 777 -R  /data/data/com.termux/files/home/PPPwn_Android
+sudo chmod 777 -R  /data/data/com.termux/files/home/PPPwn_Android
 
 echo "$white -"
 echo "$white -" "$green Execution permissions activated successfully"
