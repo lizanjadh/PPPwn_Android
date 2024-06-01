@@ -77,7 +77,7 @@ read foo
 
 ;;
 
-2) echo "$blue Starting $gree PPPwn++ $yellow 11.00 PS4 ..."
+2) echo "$blue Starting $green PPPwn++ $yellow 11.00 PS4 ..."
 
 sleep 1
 
