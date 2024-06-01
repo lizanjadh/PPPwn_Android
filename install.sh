@@ -24,6 +24,8 @@ echo "$white -" "$yellow Installing dependencies ..."
 sleep 1
 sleep 1
 sleep 1
+sleep 1
+sleep 1
 
 echo "$white -" "$yellow downloading and installing tsu"
 
