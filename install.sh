@@ -23,6 +23,7 @@ echo "$white -" "$yellow Installing dependencies ..."
 
 sleep 1
 sleep 1
+sleep 1
 
 echo "$white -" "$yellow downloading and installing tsu"
 
@@ -37,26 +38,18 @@ echo "$white -" "$yellow Activating execute, read, write permissions for the PPP
 
 sleep 1
 sleep 1
+sleep 1
 
 sudo chmod 777 -R /data/data/com.termux/files/home/PPPwn_Android
 
 echo "$white -"
 echo "$white -" "$green Execution permissions activated successfully"
 echo "$white -"
-echo "$white -" "$yellow Copying file start.sh to the home folder..."
-
-sleep 1
-sleep 1
-
-cp *start.sh* /data/data/com.termux/files/home
-
-echo "$white -"
-echo "$white -" "$green File start.sh copied successfully"
-echo "$white -"
 echo "$white -" "$yellow Changing Termux Menu PPPwn++"
 
 cp *termux-login.sh* /data/data/com.termux/files/usr/etc
 
+sleep 1
 sleep 1
 sleep 1
 
@@ -65,6 +58,7 @@ echo "$white -" "$green termux Menu changed successfully"
 echo "$white -"
 echo "$white -" "$yellow The PPPwn++ menu will start ..."
 
+sleep 1
 sleep 1
 sleep 1
 sh start.sh
