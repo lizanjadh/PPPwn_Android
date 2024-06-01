@@ -18,4 +18,4 @@
 pkg install git -y && git clone https://github.com/lizanjadh/PPPwn_Android.git && cd PPPwn_Android && sh install.sh
 ```
 # Demonstration
-- https://youtu.be/PeOBZ9UoieA?si=xaH_kYNK-1PK_UGo
+- https://youtu.be/1X-opRPB6Ts
