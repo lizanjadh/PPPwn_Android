@@ -50,39 +50,39 @@ echo "$green __________________________________________________________"
 echo ""
 
 
-echo "$yellow 1. $white Start $white PPPwn++ $white Exploit  7.00 PS4 Firmware"
+echo "$yellow 01. $white Start $white PPPwn++ $white Exploit  7.00 PS4 Firmware"
 
 echo ""
 
-echo "$yellow 2. $white Start $white PPPwn++ $White Exploit 7.01 PS4 Firmware"
+echo "$yellow 02. $white Start $white PPPwn++ $White Exploit 7.01 PS4 Firmware"
 
 echo ""
 
-echo "$yellow 3. $white Start $white PPPwn++ $White Exploit 7.50 PS4 Firmware"
+echo "$yellow 03. $white Start $white PPPwn++ $White Exploit 7.50 PS4 Firmware"
 
 echo ""
 
-echo "$yellow 4. $white Start $white PPPwn++ $White Exploit 8.00 PS4 Firmware"
+echo "$yellow 04. $white Start $white PPPwn++ $White Exploit 8.00 PS4 Firmware"
 
 echo ""
 
-echo "$yellow 5. $white Start $white PPPwn++ $White Exploit 8.50 PS4 Firmware"
+echo "$yellow 05. $white Start $white PPPwn++ $White Exploit 8.50 PS4 Firmware"
 
 echo ""
 
-echo "$yellow 6. $white Start $white PPPwn++ $White Exploit 9.00 PS4 Firmware"
+echo "$yellow 06. $white Start $white PPPwn++ $White Exploit 9.00 PS4 Firmware"
 
 echo ""
 
-echo "$yellow 7. $white Start $white PPPwn++ $White Exploit 9.03 PS4 Firmware"
+echo "$yellow 07. $white Start $white PPPwn++ $White Exploit 9.03 PS4 Firmware"
 
 echo ""
 
-echo "$yellow 8. $white Start $white PPPwn++ $White Exploit 9.50 PS4 Firmware"
+echo "$yellow 08. $white Start $white PPPwn++ $White Exploit 9.50 PS4 Firmware"
 
 echo ""
 
-echo "$yellow 9. $white Start $white PPPwn++ $White Exploit 10.00 PS4 Firmware"
+echo "$yellow 09. $white Start $white PPPwn++ $White Exploit 10.00 PS4 Firmware"
 
 echo ""
 
