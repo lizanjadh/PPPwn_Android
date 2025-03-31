@@ -52,47 +52,47 @@ echo "$green ________________________________________________"
 echo ""
 
 
-echo "$yellow 01. $white Start $white PPPwn++ $white Exploit 7.00  PS4 Firmware"
+echo "$yellow 01.$white Start$white PPPwn++ $white Exploit 7.00              PS4 Firmware"
 
 echo ""
 
-echo "$yellow 02. $white Start $white PPPwn++ $White Exploit 7.01  PS4 Firmware"
+echo "$yellow 02.$white Start$white PPPwn++ $White Exploit 7.01/7.02         PS4 Firmware"
 
 echo ""
 
-echo "$yellow 03. $white Start $white PPPwn++ $White Exploit 7.50  PS4 Firmware"
+echo "$yellow 03.$white Start$white PPPwn++ $White Exploit 7.50/7.51/7.55    PS4 Firmware"
 
 echo ""
 
-echo "$yellow 04. $white Start $white PPPwn++ $White Exploit 8.00  PS4 Firmware"
+echo "$yellow 04.$white Start$white PPPwn++ $White Exploit 8.00/8.01/8.03    PS4 Firmware"
 
 echo ""
 
-echo "$yellow 05. $white Start $white PPPwn++ $White Exploit 8.50  PS4 Firmware"
+echo "$yellow 05.$white Start$white PPPwn++ $White Exploit 8.50/8.52         PS4 Firmware"
 
 echo ""
 
-echo "$yellow 06. $white Start $white PPPwn++ $White Exploit 9.00  PS4 Firmware"
+echo "$yellow 06.$white Start$white PPPwn++ $White Exploit 9.00              PS4 Firmware"
 
 echo ""
 
-echo "$yellow 07. $white Start $white PPPwn++ $White Exploit 9.03  PS4 Firmware"
+echo "$yellow 07.$white Start$white PPPwn++ $White Exploit 9.03/9.04         PS4 Firmware"
 
 echo ""
 
-echo "$yellow 08. $white Start $white PPPwn++ $White Exploit 9.50  PS4 Firmware"
+echo "$yellow 08.$white Start$white PPPwn++ $White Exploit 9.50/9.51/9.60    PS4 Firmware"
 
 echo ""
 
-echo "$yellow 09. $white Start $white PPPwn++ $White Exploit 10.00 PS4 Firmware"
+echo "$yellow 09.$white Start$white PPPwn++ $White Exploit 10.00/10.01       PS4 Firmware"
 
 echo ""
 
-echo "$yellow 10. $white Start $white PPPwn++ $White Exploit 10.50 PS4 Firmware"
+echo "$yellow 10.$white Start$white PPPwn++ $White Exploit 10.50/10.70/10.71 PS4 Firmware"
 
 echo ""
 
-echo "$yellow 11. $white Start $white PPPwn++ $White Exploit 11.00 PS4 Firmware"
+echo "$yellow 11.$white Start$white PPPwn++ $White Exploit 11.00             PS4 Firmware"
 
 echo ""
 
@@ -120,7 +120,7 @@ read foo
 
 ;;
 
-2) echo "$blue Starting $green PPPwn++ $yellow 7.01 PS4..."
+2) echo "$blue Starting $green PPPwn++ $yellow 7.01/7.02 PS4..."
 
 sleep 1
 
@@ -130,7 +130,7 @@ read foo
 
 ;;
 
-3) echo "$blue Starting $green PPPwn++ $yellow 7.50 PS4..."
+3) echo "$blue Starting $green PPPwn++ $yellow 7.50/7.51/7.55 PS4..."
 
 sleep 1
 
@@ -140,7 +140,7 @@ read foo
 
 ;;
 
-4) echo "$blue Starting $green PPPwn++ $yellow 8.00 PS4..."
+4) echo "$blue Starting $green PPPwn++ $yellow 8.00/8.01/8.03 PS4..."
 
 sleep 1
 
@@ -150,7 +150,7 @@ read foo
 
 ;;
 
-5) echo "$blue Starting $green PPPwn++ $yellow 8.50 PS4..."
+5) echo "$blue Starting $green PPPwn++ $yellow 8.50/8.52 PS4..."
 
 sleep 1
 
@@ -161,7 +161,6 @@ read foo
 ;;
 
 6) echo "$blue Starting $green PPPwn++ $yellow 9.00 PS4..."
-
 sleep 1
 
 sh start_900.sh
@@ -170,7 +169,7 @@ read foo
 
 ;;
 
-7) echo "$blue Starting $green PPPwn++ $yellow 9.03 PS4..."
+7) echo "$blue Starting $green PPPwn++ $yellow 9.03/9.04 PS4..."
 
 sleep 1
 
@@ -180,7 +179,17 @@ read foo
 
 ;;
 
-8) echo "$blue Starting $green PPPwn++ $yellow 10.00 PS4..."
+8) echo "$blue Starting $green PPPwn++ $yellow 9.50/9.51/9.60 PS4..."
+
+sleep 1
+
+sh start_950.sh
+
+read foo
+
+;;
+
+9) echo "$blue Starting $green PPPwn++ $yellow 10.00/10.01 PS4..."
 
 sleep 1
 
@@ -190,17 +199,7 @@ read foo
 
 ;;
 
-9) echo "$blue Starting $green PPPwn++ $yellow 7.01 PS4..."
-
-sleep 1
-
-sh start_701.sh
-
-read foo
-
-;;
-
-10) echo "$blue Starting $green PPPwn++ $yellow 10.50 PS4..."
+10) echo "$blue Starting $green PPPwn++ $yellow 10.50/10.70/10.71 PS4..."
 
 sleep 1
 
@@ -220,7 +219,7 @@ read foo
 
 ;;
 
-15)exit 0
+12)exit 0
 
 ;;
 
