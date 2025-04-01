@@ -89,4 +89,4 @@ echo "$white -" "$yellow The PPPwn++ Menu will start ..."
 sleep 1
 sleep 1
 sleep 1
-sh start.sh
+sh start1.sh
