@@ -17,14 +17,25 @@ echo "$white -" "$yellow Accept Storage permissions to continue..."
 
 termux-setup-storage
 
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+
 echo "$white -" "$green storage permissions was accepted successfully"
+echo "$white -"
+
+sleep 1
+
 echo "$white -"
 echo "$white -" "$yellow Installing dependencies ..."
 
-sleep 1
-sleep 1
-sleep 1
-sleep 1
 sleep 1
 
 echo "$white -" "$yellow downloading and installing tsu"
@@ -39,22 +50,25 @@ echo "$blue"
 
 pkg install root-repo
 
-echo "$white -" "$yellow downloading and installing ethtool"
-
-echo "$blue"
-
-pkg install ethtool -y
-
 echo "$white -"
 echo "$white -" "$green dependencies installed correctly"
+
 echo "$white -"
 echo "$white -" "$yellow Activating execute, read, write permissions for the PPPwn_Android folder ..."
 
 sleep 1
-sleep 1
-sleep 1
 
 sudo chmod 777 -R  /data/data/com.termux/files/home/PPPwn_Android
+
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
+sleep 1
 
 echo "$white -"
 echo "$white -" "$green Execution permissions activated successfully"
@@ -70,7 +84,7 @@ sleep 1
 echo "$white -"
 echo "$white -" "$green termux Menu changed successfully"
 echo "$white -"
-echo "$white -" "$yellow The PPPwn++ menu will start ..."
+echo "$white -" "$yellow The PPPwn++ Menu will start ..."
 
 sleep 1
 sleep 1

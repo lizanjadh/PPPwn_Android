@@ -22,4 +22,4 @@ export PATH=$PATH:/data/data/com.termux/files/usr/bin/env
 
 echo "$green"
 
-sudo ./pppwn --interface eth0 --fw 1100 --stage1 FW1100/stage1/stage1.bin --stage2 FW1100/stage2/stage2.bin --auto-retry
+sudo ./pppwn --interface eth0 --fw 1071 --stage1 FW1071/stage1/stage1.bin --stage2 FW1071/stage2/stage2.bin --auto-retry
