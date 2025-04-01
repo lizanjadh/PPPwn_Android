@@ -6,8 +6,8 @@
 - An USB Ethernet Adapter
 - An ethernet cable
 - internet connection on phone
--App Termux
--https://github.com/termux/termux-app/releases/download/v0.119.0-beta.2/termux-app_v0.119.0-beta.2+apt-android-7-github-debug_universal.apk
+- App Termux
+- https://github.com/termux/termux-app/releases/download/v0.119.0-beta.2/termux-app_v0.119.0-beta.2+apt-android-7-github-debug_universal.apk
 
 # How to install
 
